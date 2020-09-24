@@ -1,0 +1,38 @@
+{
+  "name": "boromi",
+  "version": "1.0.0",
+  "description": "Boromi is a loan requesting and management platform where users can request for loans.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --exec babel-node src/index.js",
+    "test": "mocha --reporter spec --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omokolataiwo/boromi.git"
+  },
+  "keywords": [
+    "loan",
+    "loan management"
+  ],
+  "author": "Taiwo Kolawole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omokolataiwo/boromi/issues"
+  },
+  "homepage": "https://github.com/omokolataiwo/boromi#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
